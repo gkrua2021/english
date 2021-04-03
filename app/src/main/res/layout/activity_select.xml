@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".select">
+
+    <LinearLayout
+        android:background="#4A655A"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <EditText
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:privateImeOptions="defaultInputmode=english"
+            android:layout_weight="1"
+            android:id="@+id/et1"
+            android:hint="등록된 찾고 싶은 영어단어를 입력하세요"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <ImageButton
+            android:layout_weight="4"
+            android:background="@drawable/rjato"
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#4A655A"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="단어:"
+                android:textSize="35dp"
+                android:textColor="#ffffff"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:textSize="35dp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="뜻:"
+                android:textSize="35dp"
+                android:textColor="#ffffff"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:textSize="35dp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:background="#ffffff"
+            android:textSize="28dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="영어 발음 듣기:"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageButton
+            android:id="@+id/bt3"
+            android:background="@drawable/emem"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:background="#ffffff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="28dp"
+            android:text="뒤로가기:"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/bt2"
+            android:layout_weight="1"
+            android:background="@drawable/images"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
